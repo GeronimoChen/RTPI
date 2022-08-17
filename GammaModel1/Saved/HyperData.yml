@@ -1,0 +1,42 @@
+boundary:
+  energy_max: 1
+  gamma_sample: 7
+  inner_phot_rate: 0
+  photon_max: 155808417862140.0
+files:
+  save_dir: Gamma11fe3/Spec_0/InnerEng_8/Saved/
+material:
+  density:
+    data_type: file
+    exp_time: 12.349999999998545
+    file_name: ../Structure/SN2011fe/0.dens.txt
+    t_0: 1000000
+  element:
+    data_type: file
+    file_name: ../Structure/SN2011fe/0.elem.txt
+  gamma_source:
+    data_type: file
+    file_name: ../Structure/SN2011fe/0.gamma.txt
+  velocity:
+    max: 0.119
+    min: 0.033861290049531534
+train:
+  boun1_weight: 3000.0
+  boun2_weight: 3000.0
+  negative_limit: 0.001
+  pde_weight: 1
+  rate_list:
+  - 0.0001
+  - 3.0e-05
+  - 3.0e-05
+  - 3.0e-05
+  - 1.0e-05
+  - 1.0e-05
+  - 1.0e-05
+  - 1.0e-05
+  - 3.0e-06
+  - 3.0e-06
+  - 3.0e-06
+  - 1.0e-06
+  - 1.0e-06
+  - 1.0e-06
